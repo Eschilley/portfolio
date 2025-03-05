@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eschilley Cristina - Atendente / Sucesso do Cliente</title>
+    <style>
+        /* Estilos CSS */
+        :root {
+            --emerald: #50C878;
+            --navy-blue: #002366;
+            --black: #000000;
+            --white: #FFFFFF;
+            --gray: #F4F4F4;
+            --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s ease;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: var(--black);
+            background-color: var(--white);
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Raleway', sans-serif;
+            color: var(--navy-blue);
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .hero {
+            background: url('https://i.ibb.co/k6ymrmVq/LogoE-C2.jpg') no-repeat center center/cover;
+            height: 60vh;
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        .intro {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        h1 {
+            font-size: 2.8em;
+            margin: 10px 0;
+            font-weight: 700;
+            color: var(--navy-blue);
+        }
+
+        h2 {
+            font-size: 2em;
+            margin: 10px 0;
+            color: var(--emerald);
+            font-weight: 600;
+        }
+
+        p {
+            font-size: 1.1em;
+            font-weight: 400;
+            color: var(--black);
+        }
+
+        section {
+            margin: 60px 0;
+            padding: 40px 0;
+            background-color: var(--white);
+            border-radius: 10px;
+            box-shadow: var(--shadow);
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            background-color: var(--gray);
+            margin: 10px 0;
+            padding: 15px;
+            border-left: 4px solid var(--emerald);
+            transition: var(--transition);
+        }
+
+        ul li:hover {
+            transform: translateX(10px);
+        }
+
+        footer {
+            background-color: var(--navy-blue);
+            color: var(--white);
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .social-links a {
+            color: var(--white);
+            margin: 0 15px;
+            font-size: 1.5em;
+            transition: var(--transition);
+        }
+
+        .social-links a:hover {
+            color: var(--emerald);
+        }
+
+        .flags {
+            margin: 20px 0;
+        }
+
+        .flags img {
+            width: 30px;
+            margin: 5px;
+            transition: var(--transition);
+        }
+
+        .flags img:hover {
+            transform: scale(1.2);
+        }
+
+        .safe-site {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: var(--white); /* Texto em branco */
+        }
+
+        .safe-site i {
+            margin-right: 5px;
+            color: var(--emerald);
+        }
+
+        .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            background-color: var(--emerald);
+            color: var(--navy-blue);
+            border-radius: 5px;
+            font-weight: bold;
+            transition: var(--transition);
+            font-size: 1.1em;
+        }
+
+        .cta-button:hover {
+            background-color: var(--navy-blue);
+            color: var(--white);
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.2em;
+            }
+            h2 {
+                font-size: 1.6em;
+            }
+            .hero {
+                height: 40vh;
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Hero Section (Imagem de fundo) -->
+    <div class="hero"></div>
+
+    <!-- Introdução (Texto abaixo da imagem) -->
+    <section class="intro">
+        <div class="container">
+            <h1>Atendente / Sucesso do Cliente</h1>
+            <p>Olá, me chamo Eschilley Cristina, tenho 24 anos e gostaria de desenvolver-me profissionalmente, pondo em prática minhas experiências anteriores e adquirindo novos aprendizados na área de atendimento ao cliente. Atualmente, estou em transição de carreira e iniciando proficiência na área de Design (focado em UX/UI).</p>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre</h2>
+            <p><strong>Contato:</strong> eshcbraz@gmail.com</p>
+            <p><strong>Telefone:</strong> +55 (81) 99201-2244</p>
+            <p><strong>Localização:</strong> Paulista, PE, Brasil</p>
+        </div>
+    </section>
+
+    <!-- Seção Formação e Cursos -->
+    <section id="formacao">
+        <div class="container">
+            <h2>Formação e Cursos</h2>
+            <ul>
+                <li>Ensino Médio: SESI, Brasil, PE (2018)</li>
+                <li>Power BI: Udemy (2024)</li>
+                <li>Operador de Computador: SENAC, Brasil, PE (2018)</li>
+                <li>Inglês Avançado: SENAC, Brasil, PE (2017)</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Seção Experiência Profissional -->
+    <section id="experiencia">
+        <div class="container">
+            <h2>Experiência Profissional</h2>
+            <ul>
+                <li><strong>Cubbotech (2024 - Atual):</strong> Customer Success (Pós-venda, CRM Pipedrive, atendimento via WhatsApp Business).</li>
+                <li><strong>Cactus Corporation (2023 - 2024):</strong> Analista de Suporte (Live Chat, Zendesk, Jira).</li>
+                <li><strong>SpeedMais Solutions (2023):</strong> Atendimento SAC do Banco do Brasil (Call Center).</li>
+                <li><strong>Forex Secret (2021):</strong> Atendimento ao Cliente (Suporte via WhatsApp, Anydesk, TeamViewer).</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Seção Habilidades e Competências -->
+    <section id="habilidades">
+        <div class="container">
+            <h2>Habilidades e Competências</h2>
+            <ul>
+                <li>Digitação, ortografia e leitura eficientes</li>
+                <li>MS Office, Windows e Linux</li>
+                <li>Power BI</li>
+                <li>Perfil analítico</li>
+                <li>Comunicação ativa</li>
+                <li>Colaborativa e empática</li>
+                <li>Proativa e focada em resolução de problemas</li>
+                <li>Inglês Avançado</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/eshcbraz" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="flags">
+                <img src="https://flagcdn.com/us.svg" alt="USA" width="30">
+                <img src="https://flagcdn.com/br.svg" alt="Brazil" width="30">
+                <img src="https://flagcdn.com/gb.svg" alt="UK" width="30">
+                <img src="https://flagcdn.com/de.svg" alt="Germany" width="30">
+                <img src="https://flagcdn.com/fr.svg" alt="France" width="30">
+                <img src="https://flagcdn.com/ca.svg" alt="Canada" width="30">
+                <img src="https://flagcdn.com/jp.svg" alt="Japan" width="30">
+                <img src="https://flagcdn.com/cn.svg" alt="China" width="30">
+                <img src="https://flagcdn.com/au.svg" alt="Australia" width="30">
+                <img src="https://flagcdn.com/it.svg" alt="Italy" width="30">
+            </div>
+            <a href="https://wa.me/5581992012244" target="_blank" class="cta-button">Entre em Contato</a>
+            <p style="color: var(--white);">&copy; 2024 Eschilley Cristina. Todos os direitos reservados.</p>
+            <p class="safe-site"><i class="fas fa-shield-alt"></i> Site Seguro</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        // JavaScript para interatividade
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
